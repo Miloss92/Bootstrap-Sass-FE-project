@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>FE bootstrap & sass test project</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="d-flex justify-content-between px-3">
+                <div class="logo">
+                    <img class="py-3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/LOGO_WHITE.png/1200px-LOGO_WHITE.png" alt="Logo">
+                </div>
+                <ul class="navi d-flex justify-content-center gap-5 m-0 p-0 text-center">
+                    <li class="nav-button">
+                        <a class="text-decoration-none fw-bold h-100 d-block" href="#">Home</a>
+                    </li>
+                    <li class="nav-button">
+                        <a class="text-decoration-none fw-bold h-100 d-block" href="#">About us</a>
+                    </li>
+                    <li class="nav-button">
+                        <a class="text-decoration-none fw-bold h-100 d-block" href="#">Services</a>
+                    </li>
+                    <li class="nav-button">
+                        <a class="text-decoration-none fw-bold h-100 d-block" href="#">Blog</a>
+                    </li>
+                    <li class="nav-button">
+                        <a class="text-decoration-none fw-bold h-100 d-block" href="#">Contact</a>
+                    </li>
+                </ul>  
+                <div class="search-input align-content-center position-relative">
+                    <input class="rounded-5 p-2" type="text" placeholder="Search here...">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                    </svg>
+                </div>   
+            </nav>
+            <main class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 align-content-center">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <h1>Lorem ipsum dolor sit amet consectetur </br> adipisicing elit. Voluptate, a?</h1>
+                    <p class="gray-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique accusamus officia aliquam!</p>
+                    <button class="rounded-5 py-2 px-3 mb-3 border border-0">Discover More</button>
+                    <button class="exploreBtn border border-0 py-2 px-3 mb-3">
+                        Explore Services
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <img src="https://betterbody.ie/wp-content/uploads/elementor/thumbs/strong-man-training-in-gym-1-scaled-puc6dnltxn54i7tqe8yfryh0a4wn9r8z3ewgicqsqo.jpg" alt="Picture">
+                </div>
+            </main>
+        </header>
+    </div>    
+    <div class="container">
+        <div class="container gallery py-5"> 
+            <div class="d-lg-flex d-sm-block justify-content-between">
+                <div class="gallery-wrapper">
+                    <div class="row">
+                        <div class="gallery-image col-lg-6 col-md-12 col-sm-12">
+                            <img src="https://cdn-magazine.nutrabay.com/wp-content/uploads/2023/02/strong-bodybuilder-doing-heavy-weight-exercise-back-machine-1-1067x800.jpg" alt="gym-picture">
+                        </div>
+                        <div class="gallery-image col-lg-6 col-md-12 col-sm-12">
+                            <img src="https://cdn-magazine.nutrabay.com/wp-content/uploads/2023/02/strong-bodybuilder-doing-heavy-weight-exercise-back-machine-1-1067x800.jpg" alt="gym-picture">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="gallery-image col-lg-6 col-md-12 col-sm-12">
+                            <img src="https://cdn-magazine.nutrabay.com/wp-content/uploads/2023/02/strong-bodybuilder-doing-heavy-weight-exercise-back-machine-1-1067x800.jpg" alt="gym-picture">
+                        </div>
+                        <div class="gallery-image col-lg-6 col-md-12 col-sm-12">
+                            <img src="https://cdn-magazine.nutrabay.com/wp-content/uploads/2023/02/strong-bodybuilder-doing-heavy-weight-exercise-back-machine-1-1067x800.jpg" alt="gym-picture">
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-text w-sm-100 align-content-center">
+                    <h4>Lorem, ipsum dolor.</h4>
+                    <h2>Lorem ipsum dolor </br> sit amet consectetur adipisicing.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam accusantium aperiam doloribus quibusdam porro voluptas vel, vitae, non, suscipit beatae laudantium necessitatibus dolorum minima sed cum enim autem fugit recusandae odit? Vero laudantium quisquam nemo iure ipsum praesentium? Sapiente, ut fugiat? Natus nulla eos voluptate porro commodi facere fuga sed.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sapiente quo esse sunt corrupti hic iure aspernatur incidunt consectetur ex.</p>
+                    <button class="rounded-3 py-2 px-3 border border-0">Get started</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container our-app d-lg-flex d-sm-blockd justify-content-between">
+        <div class="our-app-icons px-3">
+            
+            <p class="app-subheadline">About our app</p>
+            <h2 class="app-headline pb-4">A new way to manage </br> your online money</h2>
+            
+            <div class="row pb-4">
+                <div class="icon-img col-lg-6 col-sm-12">
+                    <img class="pt-2" src="https://cdn.icon-icons.com/icons2/537/PNG/512/images_icon-icons.com_52936.png" alt="Icon-picture"/>
+                    <h3 class="pt-2">Lorem, ipsum.</h3>
+                    <p class="pt-2">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                </div>
+                <div class="icon-img col-lg-6 col-sm-12">
+                    <img class="pt-2" src="https://cdn.icon-icons.com/icons2/537/PNG/512/images_icon-icons.com_52936.png" alt="Icon-picture"/>
+                    <h3 class="pt-2">Lorem, ipsum.</h3>
+                    <p class="pt-2">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                </div>
+            </div>
+            <div class="row pb-4">
+                <div class="icon-img col-lg-6 col-sm-12">
+                    <img class="pt-2" src="https://cdn.icon-icons.com/icons2/537/PNG/512/images_icon-icons.com_52936.png" alt="Icon-picture"/>
+                    <h3 class="pt-2">Lorem, ipsum.</h3>
+                    <p class="pt-2">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                </div>
+                <div class="icon-img col-lg-6 col-sm-12">
+                    <img class="pt-2" src="https://cdn.icon-icons.com/icons2/537/PNG/512/images_icon-icons.com_52936.png" alt="Icon-picture"/>
+                    <h3 class="pt-2">Lorem, ipsum.</h3>
+                    <p class="pt-2">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                </div>
+            </div>
+        </div>
+        <div class="phone-image-wrapper align-content-center px-3">
+            <img class="" src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4987/4987617_sa.jpg" alt="phone-image"/>
+        </div>
+    </div>
+    <div class="container info d-lg-flex d-sm-block justify-content-between py-5">
+        <div>
+            <p class="fw-bold">Lorem ipsum dolor sit.</p>
+            <h1 class="fw-bold mb-sm-3">Get started with</br>our free trail</h1>
+        </div>
+        <div class="info-buttons align-content-center">
+            <button class="first-btn me-2 p-2 rounded-1 border border-0">Get Pro Vision</button>
+            <button class="second-btn p-2 rounded-1 border border-0">Start Free trail</button>
+        </div>
+    </div>
+    <div class="container portfolio py-5">
+        <div class="portfolio-info text-center">
+            <p class="fw-bold">Our portfolio</p>
+            <h2>Our recent projects</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio aspernatur pariatur eos veritatis similique sed?</p>
+        </div>
+        <div class="portfolio-btns d-flex justify-content-center gap-4 pb-5 pt-4">
+            <button class="px-3 rounded-1 border border-0 py-2 px-4 d-none d-sm-block d-md-block d-lg-block">All project</button>
+            <button class="px-3 rounded-1 border border-0 py-2 px-4 d-none d-sm-block d-md-block d-lg-block">Branding</button>
+            <button class="px-3 rounded-1 border border-0 py-2 px-4 d-none d-sm-none d-md-none d-lg-block">Design</button>
+            <button class="px-3 rounded-1 border border-0 py-2 px-4 d-none d-sm-none d-md-none d-lg-block">Marketing</button>
+            <button class="px-3 rounded-1 border border-0 py-2 px-4 d-none d-sm-none d-md-none d-lg-block">Development</button>
+        </div>
+        <div class="container portofolio-cards">
+            <div class="row gy-1">
+                <div class="card col-lg-4 col-sm-12 rounded-3 border border-0">
+                    <div class="card-desc rounded-3 border border-0 shadow z-1">
+                        <p class="fw-bold mb-1 mt-4">Branding</p>
+                        <h3>Portfolio design</h3>
+                        <button class="py-1 px-3 border border-1 rounded-1 mb-4">View details</button>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-sm-12 rounded-3 border border-0">
+                    <div class="card-desc rounded-3 border border-0 shadow z-1">
+                        <p class="fw-bold mb-1 mt-4">Branding</p>
+                        <h3>Portfolio design</h3>
+                        <button class="py-1 px-3 border border-1 rounded-1 mb-4">View details</button>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-sm-12 rounded-3 border border-0">
+                    <div class="card-desc rounded-3 border border-0 shadow z-1">
+                        <p class="fw-bold mb-1 mt-4">Branding</p>
+                        <h3>Portfolio design</h3>
+                        <button class="py-1 px-3 border border-1 rounded-1 mb-4">View details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row gy-1">
+                <div class="card col-lg-4 col-sm-12 rounded-3 border border-0">
+                    <div class="card-desc rounded-3 border border-0 shadow z-1">
+                        <p class="fw-bold mb-1 mt-4">Branding</p>
+                        <h3>Portfolio design</h3>
+                        <button class="py-1 px-3 border border-1 rounded-1 mb-4">View details</button>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-sm-12 rounded-3 border border-0">
+                    <div class="card-desc rounded-3 border border-0 shadow z-1">
+                        <p class="fw-bold mb-1 mt-4">Branding</p>
+                        <h3>Portfolio design</h3>
+                        <button class="py-1 px-3 border border-1 rounded-1 mb-4">View details</button>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-sm-12 rounded-3 border border-0">
+                    <div class="card-desc rounded-3 border border-0 shadow z-1">
+                        <p class="fw-bold mb-1 mt-4">Branding</p>
+                        <h3>Portfolio design</h3>
+                        <button class="py-1 px-3 border border-1 rounded-1 mb-4">View details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
